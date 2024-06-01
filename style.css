@@ -16,6 +16,9 @@ body{
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
+    max-width: 390px;
+    max-height: 560px;
+    padding: 6px;
 }
 .calculator:hover{
     transform: scale(1.05);
@@ -31,6 +34,8 @@ body{
     font-weight: 700;
     font-size: 55px;
     overflow-x: hidden;
+    max-height: 180px;
+    max-width: 100%;
 }
 .result{
     margin-right: 20px;
@@ -93,7 +98,9 @@ body{
 .section3 .btn:hover {
     background-color: rgb(220, 213, 213);
 }
-
+.small-icon {
+    font-size: 0.7em;
+}
 .section4 .btn {
     background-color: white;
     border: none;
